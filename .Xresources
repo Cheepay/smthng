@@ -1,0 +1,48 @@
+URxvt.termName: rxvt-unicode
+URxvt.font: xft:monospace:size=12
+URxvt.scrollBar: false
+URxvt.scrollBar_right: true
+URxvt.geometry: 92x22
+URxvt.scrollstyle: plain
+URxvt.inheritPixmap: true
+URxvt.shading: 50
+URxvt.depth: 32
+URxvt.transparent: true
+
+! Background color
+URxvt.background: rgba:0000/0000/1111/dddd
+
+! Font color
+URxvt.foreground: #d5d144
+
+! Other colors
+URxvt.color0: #a09d10
+URxvt.color1: #a120ee
+URxvt.color2: #d736eb
+URxvt.color3: #ed1313
+URxvt.color4: #c1459d
+URxvt.color5: #ed2587
+URxvt.color6: #0fd1df
+URxvt.color7: #8b39f3
+URxvt.color8: #31c820
+URxvt.color9: #306e29
+URxvt.color10: #145cb1
+URxvt.color11: #bdb11c
+URxvt.color12: #e1c513
+URxvt.color13: #5cc137
+URxvt.color14: #abad7a
+URxvt.color15: #dede72
+
+URxvt.perl-ext-common: default,matcher,fullscreen,resize-font,clipboard
+URxvt.url-launcher: /usr/bin/vivaldi
+URxvt.matcher.button: 1
+URxvt.keysym.C-+: resize-font:bigger
+URxvt.keysym.C--: resize-font:smaller
+URxvt.keysym.F11: perl:fullscreen:switch
+URxvt.keysym.Control-Shift-C: perl:clipboard:copy
+URxvt.keysym.Control-Shift-V: perl:clipboard:paste
+URxvt.clipboard.autocopy: true
+
+URxvt.cursorColor: #d5d144
+URxvt.cursorColor2: #d5d144
+

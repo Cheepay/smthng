@@ -1,0 +1,43 @@
+URxvt.font: xft:monospace:size=12
+URxvt.scrollBar: false
+URxvt.scrollBar_right: true
+URxvt.geometry: 92x22
+URxvt.scrollstyle: plain
+URxvt.inheritPixmap: true
+URxvt.shading: 50
+URxvt.depth: 32
+URxvt.transparent: true
+
+! Background color
+URxvt.background: rgba:0000/0000/1111/dddd
+
+! Font color
+URxvt.foreground: #851993
+
+! Other colors
+URxvt.color0: #981fa7
+URxvt.color1: #6c0479
+URxvt.color2: #971572
+URxvt.color3: #964780
+URxvt.color4: #c1459d
+URxvt.color5: #ed2587
+URxvt.color6: #c1459d
+URxvt.color7: #8b39f3
+URxvt.color8: #8a50d5
+URxvt.color9: #5a2c93
+URxvt.color10: #1b419b
+URxvt.color11: #7e53cb
+URxvt.color12: #5f1ed2
+URxvt.color13: #9014ed
+URxvt.color14: #8a4bba
+URxvt.color15: #b00fde
+
+URxvt.perl-ext-common: default,matcher,fullscreen,resize-font,
+URxvt.url-launcher: /usr/bin/vivaldi
+URxvt.matcher.button: 1
+URxvt.keysym.C-+: resize-font:bigger
+URxvt.keysym.C--: resize-font:smaller
+URxvt.keysym.F11: perl:fullscreen:switch
+
+URxvt.cursorColor: #874dc2
+URxvt.cursorColor2: #643d8a
